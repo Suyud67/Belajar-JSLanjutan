@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+    <!-- link bootstrap cadangan (offline) -->
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/bootstrap-5.1.1-dist/css/bootstrap.min.css" />
+
+    <title>Project API (Fetch)</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <div class="row mt-5">
+        <div class="col">
+          <h1>Project Movies DB</h1>
+        </div>
+      </div>
+      <!-- akhir header -->
+
+      <!-- search -->
+      <div class="row">
+        <div class="col-md-8">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control input-keyword" placeholder="Search movie.." />
+            <button class="btn btn-primary search-btn" type="button">Search</button>
+          </div>
+        </div>
+      </div>
+      <!-- akhir search -->
+
+      <!-- card for movies -->
+      <div class="row card-container"></div>
+      <!-- akhir card -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="moviesDetailsModal" tabindex="-1" aria-labelledby="moviesDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="moviesDetailsModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir modal -->
+    </div>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="./jquery/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
