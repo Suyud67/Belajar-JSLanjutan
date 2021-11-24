@@ -1,0 +1,23 @@
+[
+  {
+    "nama": "Suyud Setiawan",
+    "nim": "20101008",
+    "email": "suyudsetiawan@gmail.com",
+    "jurusan": "teknik informatika",
+    "idDosenPA": 1
+  },
+  {
+    "nama": "Cahya",
+    "nim": "20101009",
+    "email": "cahya@gmail.com",
+    "jurusan": "Akutansi",
+    "idDosenPA": 2
+  },
+  {
+    "nama": "Tono Sutejo",
+    "nim": "20101010",
+    "email": "cakTono@gmail.com",
+    "jurusan": "teknik Sipil",
+    "idDosenPA": 3
+  }
+]
